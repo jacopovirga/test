@@ -1,1 +1,1 @@
-function
+function calculateDaysBetweenDates(begin, end)
