@@ -1,5 +1,5 @@
 .parent {
-    background-image: url('cover-image.jpg');
+    background-image: url('sfondo2.png');
     background-position: center; /* Posiziona l'immagine al centro */
     background-repeat: no-repeat; /* Non ripetere l'immagine */
     display: grid;
