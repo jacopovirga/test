@@ -25,13 +25,33 @@
 <head>
   <style>
     .image-container {
-      width: 100%;
       text-align: center;
     }
 
     .image-container img {
       max-width: 100%;
       height: auto;
+    }
+
+    /* Media query per dispositivi mobili */
+    @media only screen and (max-width: 600px) {
+      .image-container {
+        width: 100%;
+      }
+    }
+
+    /* Media query per tablet */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .image-container {
+        width: 80%;
+      }
+    }
+
+    /* Media query per desktop */
+    @media only screen and (min-width: 1025px) {
+      .image-container {
+        width: 60%;
+      }
     }
   </style>
 </head>
