@@ -17,8 +17,8 @@ body {
    #cont_1
    {
        position: relative;
-       width: 80%;
-       max-width: 80%;
+       width: 100%;
+       max-width: 100%;
        margin: 0 auto;
        padding: 25%;
    }
