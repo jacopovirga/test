@@ -13,5 +13,44 @@
 }
 
 .header { grid-area: header; }
+
+
 .main { grid-area: main; }
+
+#main-nav a
+{     
+   display: block;
+   float: left;
+   margin: 125px 0px 0px 0px;
+   color: #ffffff;
+   border: 1px #c0c0c000 solid;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   width: 115px;
+   height: 78px;
+   vertical-align: middle;
+   line-height: 110px;
+   text-align: center; 
+    background:url(icona-01.png) no-repeat 50% 99% #eeeeee00;
+    background-size:120px
+}
+#main-nav a:nth-child(2){
+    background:url(icona-01.png) no-repeat 50% 99% #EEEEEE00;
+    background-size:120px
+}
+#main-nav a:nth-child(3){
+    background:url(icona-01.png) no-repeat 50% 99% #EEEEEE00;
+    background-size:120px
+}
+#main-nav a:hover, #main-nav .active
+{
+   color: #f50000eb;
+   background-color: #c0c0c000;
+   border: 1px #C0C0C000 solid;
+}
+
+
 .footer { grid-area: footer; }
