@@ -1,5 +1,14 @@
 /* Place your CSS styles in this file */
 
+.wrapper {
+    max-width: var(--wrapper-width, 1170px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+
 body {
     background-image: url("https://dikuntu.github.io/blog/images/cover-image.jpg");
     background-repeat: no-repeat;
