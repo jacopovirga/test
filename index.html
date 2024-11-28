@@ -1,68 +1,43 @@
-<!--
-
-<!doctype html>
-
-<html>
-    <meta charset="utf-8">
-
-    <title>DIKUNTU ODV</title>
-
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <div class="parent">
-        <div class="div1">L'AGRICOLTURA COME STRUMENTO D'INCLUSIONE SOCIALE</div>
-        <div class="div2">IMMAGINI LOGO ECC.</div>
-        <div class="div3">MAIN MENU</div>
-        <div class="div4">FOOTER</div>
-        </div> 
-
-</html>
-
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <style>
-    .image-container {
-      text-align: center;
-    }
-
-    .image-container img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    /* Media query per dispositivi mobili */
-    @media only screen and (max-width: 600px) {
-      .image-container {
-        width: 100%;
-      }
-    }
-
-    /* Media query per tablet */
-    @media only screen and (min-width: 601px) and (max-width: 1024px) {
-      .image-container {
-        width: 80%;
-      }
-    }
-
-    /* Media query per desktop */
-    @media only screen and (min-width: 1025px) {
-      .image-container {
-        width: 60%;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Responsivo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="image-container">
-    <img src="sfondo2.png" alt="Immagine di esempio" usemap="#navigation-menu">
-    <map name="navigation-menu">
-      <area shape="rect" coords="10,10,100,50" href="pagina1.html" alt="Pagina 1">
-      <area shape="rect" coords="110,10,200,50" href="pagina2.html" alt="Pagina 2">
-      <area shape="rect" coords="210,10,300,50" href="pagina3.html" alt="Pagina 3">
-    </map>
-  </div>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Logo</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Benvenuto!</h2>
+            <p>Questo è un sito di esempio responsivo.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Informazioni sulla pagina.</p>
+        </section>
+        <section id="services">
+            <h2>Servizi</h2>
+            <p>Descrizione dei servizi offerti.</p>
+        </section>
+        <section id="contact">
+            <h2>Contattaci</h2>
+            <p>Modulo o dettagli di contatto qui.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Il Tuo Nome. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>
